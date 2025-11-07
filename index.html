@@ -16,7 +16,65 @@
     </section>
 
     <section id="about"></section>
+    <section id="about-one">
+      <div class="container-about">
+        <div class="card-one">
+          <div class="wrap-img">
+            <img src="../project-tugas-parallax/card.png" alt="" />
+          </div>
+          <div class="text-card">
+            <h3>HEADLINE</h3>
+            <p>
+              Write an amazing description in this dedicated card section. Each
+              word counts.
+            </p>
+            <button>See more</button>
+          </div>
+        </div>
+
+        <div class="card-one">
+          <div class="wrap-img">
+            <img src="../project-tugas-parallax/card.png" alt="" />
+          </div>
+          <div class="text-card">
+            <h3>HEADLINE</h3>
+            <p>
+              Write an amazing description in this dedicated card section. Each
+              word counts.
+            </p>
+            <button>See more</button>
+          </div>
+        </div>
+
+        <div class="card-one">
+          <div class="wrap-img">
+            <img src="../project-tugas-parallax/card.png" alt="" />
+          </div>
+          <div class="text-card">
+            <h3>HEADLINE</h3>
+            <p>
+              Write an amazing description in this dedicated card section. Each
+              word counts.
+            </p>
+            <button>See more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2025 SahlElbantany.</p>
+    </footer>
 
     <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script>
+      window.onload = function () {
+        confetti({
+          particleCount: 500,
+          spread: 7000,
+          origin: { y: 0.4 },
+        });
+      };
+    </script>
   </body>
 </html>

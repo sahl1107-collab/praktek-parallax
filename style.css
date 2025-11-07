@@ -5,7 +5,7 @@
   font-weight: 700;
 }
 body {
-  background: #09e1fd;
+  /* background: #09e1fd; */
   position: relative;
 }
 .section {
@@ -70,7 +70,7 @@ body {
 }
 .text::before {
   position: absolute;
-  content: "PARALLAX EFFECT";
+  /* content: "PARALLAX EFFECT"; */
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -82,5 +82,46 @@ body {
 }
 
 #about {
-  height: 350vh;
+  height: 100vh;
+}
+
+.card {
+  background-color: red;
+}
+.container-about {
+  margin: 100px 5%;
+  /* background-color: yellow; */
+
+  display: flex;
+  justify-content: space-between;
+}
+.wrap-img img {
+  width: 100%;
+}
+.wrap-img {
+  width: 100%;
+}
+.card-one {
+  width: 28%;
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 12px;
+}
+.text-card button {
+  padding: 12px 24px;
+  background-color: #4c6fff;
+  border-radius: 12px;
+  color: white;
+  border: none;
+}
+.text-card {
+  padding: 12px;
+}
+.text-card p {
+  margin: 12px 0;
+  color: grey;
+}
+footer {
+  display: flex;
+  justify-content: center;
 }
