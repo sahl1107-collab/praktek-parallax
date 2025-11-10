@@ -7,6 +7,8 @@
 body {
   /* background: #09e1fd; */
   position: relative;
+  /* background: #183838; */
+  background: #fcfff1;
 }
 .section {
   position: absolute;
@@ -124,4 +126,5 @@ body {
 footer {
   display: flex;
   justify-content: center;
+  color: white;
 }
